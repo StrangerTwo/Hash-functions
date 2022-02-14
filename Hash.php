@@ -8,7 +8,6 @@ $isPassCorrect = password_verify("MySuperSafePassword!", $hashed_password);
 
 if ($isPassCorrect) {
     echo "Password is correct";
-}else {
+} else {
     echo "Password is incorrect";
 }
-
